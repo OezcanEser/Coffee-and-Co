@@ -38,6 +38,12 @@ p, a {
     background-size: cover;
 }
 
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
 /* nav and hero */
 
 #hero {
@@ -61,14 +67,13 @@ nav ul {
 
 #hero img {
     position: absolute;
-    bottom: 2.5%;
+    bottom: 5%;
 }
 
 nav {
     position: fixed;
     background-color: #fff;
     width: 100%;
-
 }
 
 a:hover {
@@ -107,12 +112,6 @@ h1 {
     padding: 10vh 0;
 }
 
-h2 {
-        font-size: 5rem;
-        font-weight: 700;
-        margin: 0;
-}
-
 #menu img {
     width: 8%;
     margin-top: 2vh;
@@ -123,10 +122,6 @@ h2 {
     font-size: 1.8rem;
     text-decoration: none;
     color: #000;
-}
-
-h5 {
-    margin-top: 0;
 }
 
 .parallax2 {
@@ -179,30 +174,91 @@ h4 {
     background-image: url("../img/bridge_3.jpg");
 }
 
-/* catering */
+/* catering and cakes */
+
+#catering,
+#cakes {
+    padding: 5% 15% 0;
+}
 
 #catering {
-    padding: 5% 15%;
-    height: 60vh;
+    height: 55vh;
 }
 
-#catering h2,
-#catering a {
-    float: right;
+#cakes {
+    height: 45vh;
 }
 
-#catering p {
-    font-size: 1.5rem;
+#catering img,
+#cakes img {
+    float: left;
     width: 40%;
-    float: right;
 }
 
 #catering img {
-    float: left;
-    width: 40%;
-    margin: 10% 0
+    margin-top: 5.5%;
+}
+
+#catering div,
+#cakes div {
+    float: right;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+#catering a,
+#cakes a {
+    text-decoration: none;
+    border: 1px #000 solid;
+    padding: 1.5%;
+    color: #000;
+}
+
+#catering {
+    background: url(../img/pie_icon.png) no-repeat;
+    background-size: 30%;
+    background-position: right;
+}
+
+#cakes {
+    background: url(../img/muffin_icon.png) no-repeat;
+    background-size: 30%;
+    background-position: left;
 }
 
 .parallax4 {
     background-image: url("../img/bridge_4.jpeg");
+}
+
+/* footer */
+
+footer {    
+    height: 30vh;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding-top: 3%;
+}
+
+footer p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+}
+
+a img:nth-of-type(1),
+a img:nth-of-type(2) {
+    width: 2%;
+}
+
+footer img {
+    width: 7%;
+}
+
+footer li {
+    list-style: none;
 }
