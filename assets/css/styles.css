@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Special+Elite&display=swap');
+
+/*
+font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive;
+*/
+
 body {
     margin: 0;
 }
+
+body, html {
+    height: 100%;
+  }
 
 /* nav and hero */
 
@@ -30,6 +41,58 @@ article:first-child section img {
 
 /* main */
 
-main article:nth-of-type(1) {
+/* hello */
+
+#hello {
     background: url(../img/beans_icon.png) center/cover no-repeat;
+    padding: 5%;
+}
+
+#hello p {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5rem;
+    width: 40vw;
+}
+
+.parallax1 {
+    background-image: url("../img/bridge_1.jpg");
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+    font-size: 7rem;
+    font-weight: 700;
+    margin: 5vh 0;
+}
+
+/* menu */
+
+#menu {
+    background: url(../img/cake_icon.png) center/cover no-repeat;
+    text-align: center;
+}
+
+#menu img {
+    width: 7.5%;
+}
+
+h2 {
+        font-family: 'Exo', sans-serif;
+        font-size: 5rem;
+        font-weight: 700;
+        margin: 5vh 0;
+}
+
+.parallax2 {
+    background-image: url("../img/bridge_2.jpg");
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
