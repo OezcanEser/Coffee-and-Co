@@ -39,9 +39,9 @@ p, a {
 
 /* nav and hero */
 
-article:first-child section {
+#hero {
     background: url(../img/bg.jpeg) center/cover no-repeat;
-    height: 95vh;
+    height: 100vh;
 }
 
 nav ul li {
@@ -58,9 +58,9 @@ nav ul {
     text-align: right;
 }
 
-article:first-child section img {
+#hero img {
     position: absolute;
-    bottom: 10%;
+    bottom: 2.5%;
 }
 
 nav {
@@ -68,6 +68,10 @@ nav {
     background-color: #fff;
     width: 100%;
 
+}
+
+a:hover {
+    border-bottom: 1px #000 solid;
 }
 
 /* main */
@@ -114,15 +118,20 @@ h2 {
 }
 
 #menu img {
-    width: 7.5%;
+    width: 8%;
     margin-top: 2vh;
 }
 
 #menu a {
     margin-top: 0;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.8rem;
     text-decoration: none;
+    color: #000;
+}
+
+h5 {
+    margin-top: 0;
 }
 
 .parallax2 {
@@ -150,4 +159,15 @@ h4 {
     width: 25vw;
     margin: 1.25% auto;
     padding: 1.25%;
+}
+
+/* our story */
+
+#story {
+    padding: 10% 15%;
+}
+
+#story p {
+    font-size: 1.5rem;
+    width: 50vw;
 }
