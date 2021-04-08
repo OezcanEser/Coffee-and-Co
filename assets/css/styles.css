@@ -11,7 +11,15 @@ body {
 
 body, html {
     height: 100%;
-  }
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Exo', sans-serif;
+}
+
+p {
+    font-family: 'Special Elite', cursive;
+}
 
 /* nav and hero */
 
@@ -49,7 +57,6 @@ article:first-child section img {
 }
 
 #hello p {
-    font-family: 'Special Elite', cursive;
     font-size: 1.5rem;
     width: 40vw;
 }
@@ -64,7 +71,6 @@ article:first-child section img {
 }
 
 h1 {
-    font-family: 'Exo', sans-serif;
     font-size: 7rem;
     font-weight: 700;
     margin: 5vh 0;
@@ -73,19 +79,26 @@ h1 {
 /* menu */
 
 #menu {
-    background: url(../img/cake_icon.png) center/cover no-repeat;
+    background: url(../img/cake_icon.png) center/contain no-repeat;
     text-align: center;
+    padding: 10vh 0;
+}
+
+h2 {
+        font-size: 5rem;
+        font-weight: 700;
+        margin: 0;
 }
 
 #menu img {
     width: 7.5%;
+    margin-top: 2vh;
 }
 
-h2 {
-        font-family: 'Exo', sans-serif;
-        font-size: 5rem;
-        font-weight: 700;
-        margin: 5vh 0;
+h5 {
+    margin-top: 0;
+    font-weight: lighter;
+    font-size: 1rem;
 }
 
 .parallax2 {
@@ -95,4 +108,27 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h4 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#menu p {
+    margin: auto;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+#menu section {
+    border: 1px #000 solid;
+    width: 25vw;
+    margin: 2% auto;
+    padding: 1.25%;
 }
