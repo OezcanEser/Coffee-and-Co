@@ -5,6 +5,10 @@ font-family: 'Exo', sans-serif;
 font-family: 'Special Elite', cursive;
 */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: 0;
 }
@@ -25,7 +29,7 @@ p, a {
 
 article:first-child section {
     background: url(../img/bg.jpeg) center/cover no-repeat;
-    height: 85vh;
+    height: 95vh;
 }
 
 nav ul li {
@@ -45,6 +49,13 @@ nav ul {
 article:first-child section img {
     position: absolute;
     bottom: 10%;
+}
+
+nav {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+
 }
 
 /* main */
