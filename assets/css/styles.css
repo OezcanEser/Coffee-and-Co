@@ -28,8 +28,9 @@ p, a {
 /* parallax */
 
 .parallax1,
-.parallax2 {
-    background-image: url("../img/bridge_1.jpg");
+.parallax2,
+.parallax3,
+.parallax4 {
     height: 75vh;
     background-attachment: fixed;
     background-position: center;
@@ -90,11 +91,6 @@ a:hover {
 
 .parallax1 {
     background-image: url("../img/bridge_1.jpg");
-    height: 75vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 h1 {
@@ -164,10 +160,50 @@ h4 {
 /* our story */
 
 #story {
-    padding: 10% 15%;
+    padding: 5% 15%;
+    height: 60vh;
 }
 
 #story p {
     font-size: 1.5rem;
-    width: 50vw;
+    width: 40%;
+    float: left;
+}
+
+#story img {
+    float: right;
+    width: 30%;
+    margin: 10% 10% 0;
+}
+
+.parallax3 {
+    background-image: url("../img/bridge_3.jpg");
+}
+
+/* catering */
+
+#catering {
+    padding: 5% 15%;
+    height: 60vh;
+}
+
+#catering h2,
+a {
+    float: right;
+}
+
+#catering p {
+    font-size: 1.5rem;
+    width: 40%;
+    float: right;
+}
+
+#catering img {
+    float: left;
+    width: 40%;
+    margin: 10% 0
+}
+
+.parallax4 {
+    background-image: url("../img/bridge_4.jpeg");
 }
