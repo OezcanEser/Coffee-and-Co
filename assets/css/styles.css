@@ -25,6 +25,18 @@ p, a {
     font-family: 'Special Elite', cursive;
 }
 
+/* parallax */
+
+.parallax1,
+.parallax2 {
+    background-image: url("../img/bridge_1.jpg");
+    height: 75vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* nav and hero */
 
 article:first-child section {
@@ -74,7 +86,7 @@ nav {
 
 .parallax1 {
     background-image: url("../img/bridge_1.jpg");
-    height: 50vh;
+    height: 75vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,11 +127,6 @@ h2 {
 
 .parallax2 {
     background-image: url("../img/bridge_2.jpg");
-    height: 50vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 h3 {
