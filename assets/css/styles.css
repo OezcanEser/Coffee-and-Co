@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+/* nav and hero */
+
+article:first-child section {
+    background: url(../img/bg.jpeg) center/cover no-repeat;
+    height: 85vh;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul {
+    text-align: right;
+}
+
+article:first-child section img {
+    position: absolute;
+    bottom: 10%;
+}
+
+/* main */
+
+main article:nth-of-type(1) {
+    background: url(../img/beans_icon.png) center/cover no-repeat;
+}
